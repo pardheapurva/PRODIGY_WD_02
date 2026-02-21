@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stopwatch web app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background-animation"></div>
+
+<div class="card">
+    <h1>Stopwatch</h1>
+    <h4>Precision Time Tracker</h4>
+    <br>
+    <div id="display">00:00:00</div>
+
+    <div class="buttons">
+        <button class="start" onclick="startTimer()">Start</button>
+        <button class="pause" onclick="pauseTimer()">Pause</button>
+        <button class="reset" onclick="resetTimer()">Reset</button>
+        <button class="lap" onclick="lapTimer()">Lap</button>
+    </div>
+
+    <ul id="laps"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
