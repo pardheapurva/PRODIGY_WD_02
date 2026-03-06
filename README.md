@@ -9,7 +9,7 @@ This project was developed to strengthen frontend development skills and underst
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🔗 https://pardheapurva.github.io/PRODIGY_WD_02/
 
@@ -64,7 +64,7 @@ PRODIGY_WD_02
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 The stopwatch works using JavaScript's `setInterval()` function.
 
