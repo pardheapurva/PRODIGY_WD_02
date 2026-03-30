@@ -46,7 +46,7 @@ function lapTimer() {
     if (isRunning) {
         let lapTime = document.getElementById("display").innerText;
         let li = document.createElement("li");
-        li.innerText = "✨ " + lapTime;
+        li.innerText = lapTime;
         document.getElementById("laps").appendChild(li);
     }
 }
